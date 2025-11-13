@@ -22,6 +22,9 @@
 | `modal launch`             | Mở một instance app serverless (tính năng experimental).                         |
 | `modal shell`              | Mở **interactive shell** trong container của Modal (debug / test imports).       |
 
+Sự khác biệt giữa 2 lệnh modal run và modal serve:
+- modal run: Dùng để chạy một hàm hoặc file Python một lần rồi kết thúc
+- modal serve: Dùng để deploy API/service chạy liên tục
 ---
 
 ## 🧩 **3. Quản lý ứng dụng**
